@@ -6,6 +6,10 @@ Author: Firas Abuzaid (fabuzaid@stanford.edu)
 Author: Perth Charernwattanagul (puch@stanford.edu)
 Modified: 04/21/2014
 
+Modified: 06/17/2019
+Modified By: Raudel Valdes
+Modification Reason: adding compatibility with python 3
+
 Skeleton parser for CS564 programming project 1. Has useful imports and
 functions for parsing, including:
 
@@ -25,6 +29,7 @@ Happy parsing!
 """
 
 import sys
+import os
 from json import loads
 from re import sub
 
@@ -76,13 +81,52 @@ of the necessary SQL tables for your database.
 def parseJson(json_file):
     with open(json_file, 'r') as f:
         items = loads(f.read())['Items'] # creates a Python dictionary of Items for the supplied json file
+        auction = ''
+
+        #creating the files for each table
+        auctionTable = open('auctionTable.dat','w')
+        bidsTable = open('bidsTable.txt', 'w')
+        usersTable = open('usersTable.txt', 'w')
+        categoriesTable = open('categoriesTable.txt', 'w')
+        itemsTable = open('itemsTable.txt', 'w')
+
         for item in items:
             """
             TODO: traverse the items dictionary to extract information from the
             given `json_file' and generate the necessary .dat files to generate
             the SQL tables based on your relation design
             """
+            
+            #takes  care of adding 'NULL' to any attribute that does not show up in the item obj
+            auctionTableArr = ['ItemID', 'Name', 'Started', 'Seller', 'First_Bid', 'Number_of_Bids', 'Buy_Price']
+            for attribute in auctionTableArr:
+                try:
+                    item[attribute]
+                except KeyError:
+                    item[attribute]='NULL'
+                    pass
+
+            #gathering the necessary data for populating the auction table
+            auction = auction + (item['ItemID'] + columnSeparator + item['Name'] + columnSeparator + 
+                        item['Started'] + columnSeparator + item['Ends'] + columnSeparator +
+                        item['Seller']['UserID']  + columnSeparator + item['Buy_Price'] +
+                        columnSeparator + item['First_Bid'] + item['Number_of_Bids'] + '\n')
             pass
+        
+        #writing data to the files 
+        auctionTable.write(auction)
+        bidsTable.write('Empty For Now!')
+        usersTable.write('Empty For Now!')
+        categoriesTable.write('Empty For Now!')
+        itemsTable.write('Empty For Now!')
+
+        #closing open files
+        auctionTable.close()
+        bidsTable.close()
+        usersTable.close()
+        categoriesTable.close()
+        itemsTable.close()
+
 
 """
 Loops through each json files provided on the command line and passes each file
@@ -90,13 +134,13 @@ to the parser
 """
 def main(argv):
     if len(argv) < 2:
-        print >> sys.stderr, 'Usage: python skeleton_json_parser.py <path to json files>'
+        print('Usage: python skeleton_json_parser.py <path to json files>', file=sys.stderr)
         sys.exit(1)
     # loops over all .json files in the argument
     for f in argv[1:]:
         if isJson(f):
             parseJson(f)
-            print "Success parsing " + f
+            print("Success parsing " + f)
 
 if __name__ == '__main__':
     main(sys.argv)

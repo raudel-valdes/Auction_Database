@@ -30,7 +30,7 @@ Happy parsing!
 
 import sys
 import os
-from json import loads
+from json import loads, dumps
 from re import sub
 
 columnSeparator = "|"
@@ -73,6 +73,114 @@ def transformDollar(money):
         return money
     return sub(r'[^\d.]', '', money)
 
+
+"""
+Creates the .dat file for the Bulk Loading of the Action Table
+"""
+def gatherAuctionsTableData(auction):
+    #Table Schema -> itemID|name|started|ends|sellerID|buy_price|first_bid|number_of_bids
+    auction = (
+        auction['ItemID'] + columnSeparator + auction['Name'] + columnSeparator + 
+        auction['Started'] + columnSeparator + auction['Ends'] + columnSeparator +
+        auction['Seller']['UserID']  + columnSeparator + auction['Buy_Price'] +
+        columnSeparator + auction['First_Bid'] + auction['Number_of_Bids'] + '\n'
+    )
+
+    return auction
+
+
+"""
+Creates the .dat file for the Bulk Loading of the Bids Table
+"""
+def gatherBidsTableData(auction):
+    #For this fucntion I still need to send the value of Time and Amount to
+    #the formatting function
+
+    if auction['Number_of_Bids'] == '0':
+        return ''
+    
+    bids = ''
+    allBids = dumps(auction['Bids']) 
+    allBids = loads(allBids) 
+
+    #The format that every bid in allBids will have
+    #{'Bid': {'Bidder': {'UserID': 'grubsak@aol.com', 'Rating': '2637', 'Location': 'Akron, Ohio', 'Country': 'USA'}, 'Time': 'Dec-12-01 04:16:20', 'Amount': '$8.50'}}
+    for bid in allBids:
+        bid = bid['Bid']
+        bidder = bid['Bidder']
+        bids += (
+            bidder['UserID'] + columnSeparator +  auction['ItemID'] + columnSeparator + 
+            bid['Amount'] + columnSeparator + auction['Currently'] + columnSeparator + bid['Time'] + '\n'
+        )
+
+    return bids
+
+
+"""
+Creates the .dat file for the Bulk Loading of the Users Table
+"""
+def gatherUsersTableData(auction):
+    # Table Schema -> userID|role|rating|location|country
+    users = (
+        auction['UserID'] + columnSeparator + auction['Role'] + columnSeparator + auction['Rating'] + 
+        columnSeparator + auction['Location'] + columnSeparator + auction['Country'] + '\n'
+    )
+
+    return users
+
+
+"""
+Creates the .dat file for the Bulk Loading of the Categories Table
+"""
+def gatherCategoriesTableData(auction, allCategories):
+    categories = ''
+
+    # Table Schema -> itemID|category
+    for category in allCategories: 
+        categories += (auction['ItemID'] + columnSeparator + category + '\n')
+    
+    return categories 
+
+
+"""
+Creates the .dat file for the Bulk Loading of the Items Table
+"""
+def gatherItemsTableData(auction):
+    return 'Empty For Now!'
+
+
+"""
+1) Creating .dat files if they don't exist
+2) Writing new data to the files
+3) Closing the files
+"""
+def createTableDATFiles(auctions, bids, users, categories, items): 
+    #Auction File
+    auctionTable = open('auctionTable.txt','w')
+    auctionTable.write(auctions)
+    auctionTable.close()
+
+    #Bids File
+    bidsTable = open('bidsTable.txt', 'w')
+    bidsTable.write(bids)        
+    bidsTable.close()
+
+    #Users File
+    usersTable = open('usersTable.txt', 'w')
+    usersTable.write(users)           
+    usersTable.close()
+
+    #Categories File
+    categoriesTable = open('categoriesTable.txt', 'w')
+    categoriesTable.write(categories)
+    categoriesTable.close()
+
+    #Items File        
+    itemsTable = open('itemsTable.txt', 'w')
+    itemsTable.write('Empty For Now!')
+    itemsTable.close()
+
+
 """
 Parses a single json file. Currently, there's a loop that iterates over each
 item in the data set. Your job is to extend this functionality to create all
@@ -80,52 +188,71 @@ of the necessary SQL tables for your database.
 """
 def parseJson(json_file):
     with open(json_file, 'r') as f:
-        items = loads(f.read())['Items'] # creates a Python dictionary of Items for the supplied json file
-        auction = ''
+        jsonItems = loads(f.read())['Items'] # creates a Python dictionary of Items for the supplied json file
+        
+        #initializing variables 
+        auctions = ''
+        bids = ''
+        users = ''
+        categories  = ''
+        allCategories = []
+        items = ''
+    
+        #an array that contains all of the attributes that the tables will have
+        attributesArray = [
+            'ItemID',
+            'Name',
+            'Started',
+            'Seller',
+            'First_Bid',
+            'Number_of_Bids', 
+            'Buy_Price', 
+            'Amount',
+            'Currently',
+            'Time',
+            'Rating',
+            'UserID', #going to show up as null fix it
+            'Role'
+        ]
 
-        #creating the files for each table
-        auctionTable = open('auctionTable.dat','w')
-        bidsTable = open('bidsTable.txt', 'w')
-        usersTable = open('usersTable.txt', 'w')
-        categoriesTable = open('categoriesTable.txt', 'w')
-        itemsTable = open('itemsTable.txt', 'w')
-
-        for item in items:
+        for item in jsonItems:
             """
             TODO: traverse the items dictionary to extract information from the
             given `json_file' and generate the necessary .dat files to generate
             the SQL tables based on your relation design
             """
+
+            #adding my own attribute to the item obj
+            item['Role'] = ''
             
             #takes  care of adding 'NULL' to any attribute that does not show up in the item obj
-            auctionTableArr = ['ItemID', 'Name', 'Started', 'Seller', 'First_Bid', 'Number_of_Bids', 'Buy_Price']
-            for attribute in auctionTableArr:
+            for attribute in attributesArray:
                 try:
                     item[attribute]
                 except KeyError:
                     item[attribute]='NULL'
+
+                    if attribute == 'Location' or attribute == 'Country':
+                        item['Role'] = 'U'
+                    else:
+                        item['Role'] = 'S'
+
+                    if attribute == 'Category':
+                        allCategories.extend(item[attribute])
+
                     pass
 
             #gathering the necessary data for populating the auction table
-            auction = auction + (item['ItemID'] + columnSeparator + item['Name'] + columnSeparator + 
-                        item['Started'] + columnSeparator + item['Ends'] + columnSeparator +
-                        item['Seller']['UserID']  + columnSeparator + item['Buy_Price'] +
-                        columnSeparator + item['First_Bid'] + item['Number_of_Bids'] + '\n')
+            auctions += gatherAuctionsTableData(item)
+            bids += gatherBidsTableData(item)
+            categories += gatherCategoriesTableData(item, allCategories)
+            users += gatherUsersTableData(item)
+            items += gatherItemsTableData(item)
             pass
-        
-        #writing data to the files 
-        auctionTable.write(auction)
-        bidsTable.write('Empty For Now!')
-        usersTable.write('Empty For Now!')
-        categoriesTable.write('Empty For Now!')
-        itemsTable.write('Empty For Now!')
 
-        #closing open files
-        auctionTable.close()
-        bidsTable.close()
-        usersTable.close()
-        categoriesTable.close()
-        itemsTable.close()
+        createTableDATFiles(auctions, bids, categories, users, items)
+
+
 
 
 """

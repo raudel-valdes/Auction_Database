@@ -93,9 +93,6 @@ def gatherAuctionsTableData(auction):
 Creates the .dat file for the Bulk Loading of the Bids Table
 """
 def gatherBidsTableData(auction):
-    #For this fucntion I still need to send the value of Time and Amount to
-    #the formatting function
-
     if auction['Number_of_Bids'] == '0':
         return ''
     
@@ -108,9 +105,15 @@ def gatherBidsTableData(auction):
     for bid in allBids:
         bid = bid['Bid']
         bidder = bid['Bidder']
+
+        #Changing the format of the currently, money, and time attributes for SQLite compatibility
+        amount = transformDollar(bid['Amount'])
+        time = transformDttm(bid['Time'])
+        currently = transformDollar(auction['Currently'])
+
         bids += (
             bidder['UserID'] + columnSeparator +  auction['ItemID'] + columnSeparator + 
-            bid['Amount'] + columnSeparator + auction['Currently'] + columnSeparator + bid['Time'] + '\n'
+            amount + columnSeparator + currently + columnSeparator + time + '\n'
         )
 
     return bids
@@ -119,14 +122,74 @@ def gatherBidsTableData(auction):
 """
 Creates the .dat file for the Bulk Loading of the Users Table
 """
-def gatherUsersTableData(auction):
-    # Table Schema -> userID|role|rating|location|country
-    users = (
-        auction['UserID'] + columnSeparator + auction['Role'] + columnSeparator + auction['Rating'] + 
+
+def gatherSellersTableData(auction):
+    seller = (
+        auction['UserID'] + columnSeparator + auction['Rating'] + 
         columnSeparator + auction['Location'] + columnSeparator + auction['Country'] + '\n'
     )
 
-    return users
+    if auction['Number_of_Bids'] == '0':
+        return seller
+        
+    allBids = dumps(auction['Bids']) 
+    allBids = loads(allBids) 
+
+    #The format that every bid in allBids will have
+    #{'Bid': {'Bidder': {'UserID': 'grubsak@aol.com', 'Rating': '2637', 'Location': 'Akron, Ohio', 'Country': 'USA'}, 'Time': 'Dec-12-01 04:16:20', 'Amount': '$8.50'}}
+    for bid in allBids:
+        bid = bid['Bid']
+        bidder = bid['Bidder']
+        sellerExists = True
+
+        #If either attribute (location or country) is not found then set
+        # sellerExists to false and don't attatch info to seller
+        try:
+            bid['Location']
+            bidder['Country']
+        except KeyError:
+            sellerExists = False
+            
+        if sellerExists:
+            seller += (
+                bidder['UserID'] + columnSeparator +  bidder['Rating'] + 
+                columnSeparator + bidder['Location'] + columnSeparator + bidder['Country'] + '\n'
+            )
+
+    return seller
+
+
+def gatherBiddersTableData(auction):
+    bidders = ''
+
+    if auction['Number_of_Bids'] == '0':
+        return bidders
+        
+    allBids = dumps(auction['Bids']) 
+    allBids = loads(allBids) 
+
+    #The format that every bid in allBids will have
+    #{'Bid': {'Bidder': {'UserID': 'grubsak@aol.com', 'Rating': '2637', 'Location': 'Akron, Ohio', 'Country': 'USA'}, 'Time': 'Dec-12-01 04:16:20', 'Amount': '$8.50'}}
+    for bid in allBids:
+        bid = bid['Bid']
+        bidder = bid['Bidder']
+
+        try:
+            bidder['Location']
+        except KeyError:
+            bidder['Location'] = 'NULL'        
+
+        try:
+            bidder['Country']
+        except KeyError:
+            bidder['Country'] = 'NULL'
+
+        bidders += (
+            bidder['UserID'] + columnSeparator +  bidder['Rating'] + 
+            columnSeparator + bidder['Location'] + columnSeparator + bidder['Country'] + '\n'
+        )
+
+    return bidders
 
 
 """
@@ -154,7 +217,7 @@ def gatherItemsTableData(auction):
 2) Writing new data to the files
 3) Closing the files
 """
-def createTableDATFiles(auctions, bids, users, categories, items): 
+def createTableDATFiles(auctions, bids, categories, items, sellers, bidders): 
     #Auction File
     auctionTable = open('auctionTable.txt','w')
     auctionTable.write(auctions)
@@ -164,11 +227,6 @@ def createTableDATFiles(auctions, bids, users, categories, items):
     bidsTable = open('bidsTable.txt', 'w')
     bidsTable.write(bids)        
     bidsTable.close()
-
-    #Users File
-    usersTable = open('usersTable.txt', 'w')
-    usersTable.write(users)           
-    usersTable.close()
 
     #Categories File
     categoriesTable = open('categoriesTable.txt', 'w')
@@ -180,6 +238,15 @@ def createTableDATFiles(auctions, bids, users, categories, items):
     itemsTable.write('Empty For Now!')
     itemsTable.close()
 
+    #Sellers File
+    sellersTable = open('sellersTable.txt', 'w')
+    sellersTable.write(sellers)
+    sellersTable.close()
+
+    #Bidders File
+    biddersTable = open('biddersTable.txt', 'w')
+    biddersTable.write('Empty For Now!')
+    biddersTable.close()
 
 """
 Parses a single json file. Currently, there's a loop that iterates over each
@@ -197,6 +264,8 @@ def parseJson(json_file):
         categories  = ''
         allCategories = []
         items = ''
+        sellers = ''
+        bidders = ''
     
         #an array that contains all of the attributes that the tables will have
         attributesArray = [
@@ -221,9 +290,6 @@ def parseJson(json_file):
             given `json_file' and generate the necessary .dat files to generate
             the SQL tables based on your relation design
             """
-
-            #adding my own attribute to the item obj
-            item['Role'] = ''
             
             #takes  care of adding 'NULL' to any attribute that does not show up in the item obj
             for attribute in attributesArray:
@@ -231,11 +297,6 @@ def parseJson(json_file):
                     item[attribute]
                 except KeyError:
                     item[attribute]='NULL'
-
-                    if attribute == 'Location' or attribute == 'Country':
-                        item['Role'] = 'U'
-                    else:
-                        item['Role'] = 'S'
 
                     if attribute == 'Category':
                         allCategories.extend(item[attribute])
@@ -246,13 +307,12 @@ def parseJson(json_file):
             auctions += gatherAuctionsTableData(item)
             bids += gatherBidsTableData(item)
             categories += gatherCategoriesTableData(item, allCategories)
-            users += gatherUsersTableData(item)
             items += gatherItemsTableData(item)
+            sellers += gatherSellersTableData(item)
+            bidders += gatherBiddersTableData(item)
             pass
 
-        createTableDATFiles(auctions, bids, categories, users, items)
-
-
+        createTableDATFiles(auctions, bids, categories, items, sellers, bidders)
 
 
 """

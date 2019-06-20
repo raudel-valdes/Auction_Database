@@ -1,500 +1,500 @@
-NULL|NULL|New York|USA
-NULL|NULL|Ohio|USA
-NULL|NULL|Holden, MA|USA
-NULL|NULL|LA, CA|USA
-NULL|NULL|OCALA, FL|USA
-NULL|NULL|n ca|USA
-NULL|NULL|The Great NORTHEAST|USA
-NULL|NULL|Minnesota|USA
-NULL|NULL|OREGON|USA
-NULL|NULL|Dallas, Texas|USA
-NULL|NULL|FARGO, ND.|USA
-NULL|NULL|El Cajon Ca|USA
-NULL|NULL|OREGON|USA
-NULL|NULL|El Cajon Ca|USA
-NULL|NULL|reno nevada|USA
-NULL|NULL|OREGON|USA
-NULL|NULL|ARK|USA
-NULL|NULL|South Texas|USA
-NULL|NULL|Jefferson City, Missouri|USA
-NULL|NULL|Kenly, North Carolina|USA
-NULL|NULL|Central San Joaquin Valley - California|USA
-NULL|NULL|Groton,Vermont|USA
-NULL|NULL|Tammy's Treasures Wisconsin|USA
-NULL|NULL|Sydney|Australia
-NULL|NULL|Bluffton, Ohio|USA
-NULL|NULL|New Iberia, La.|USA
-NULL|NULL|INDIANA|USA
-NULL|NULL|Wilmington NC LeighandMorgan1@cs.com|USA
-NULL|NULL|El Cajon Ca|USA
-NULL|NULL|The Extremely Friendly South!! :o)|USA
-NULL|NULL|Wichita, Kansas|USA
-NULL|NULL|Indy|USA
-NULL|NULL|El Cajon Ca|USA
-NULL|NULL|El Cajon Ca|USA
-NULL|NULL|CASSELTON, N.D|USA
-NULL|NULL|TITAN COUNTRY|USA
-NULL|NULL|Lafayette CA|USA
-NULL|NULL|Beautiful BC|Canada
-NULL|NULL|Orange County, New York, 10940-6805|USA
-NULL|NULL|Houston|USA
-NULL|NULL|Dallas, TX|USA
-NULL|NULL|Fall River, MA|USA
-NULL|NULL|Southern Ohio|USA
-NULL|NULL|macon, ga 31210|USA
-NULL|NULL|Ottawa|Canada
-NULL|NULL|BOURG, LA.|USA
-NULL|NULL|allentown ,pa|USA
-NULL|NULL|Southern Indiana|USA
-NULL|NULL|TEXAS|USA
-NULL|NULL|Fall River, MA|USA
-NULL|NULL|allentown ,pa|USA
-NULL|NULL|El Cajon Ca|USA
-NULL|NULL|Lilburn, GA|USA
-NULL|NULL|allentown ,pa|USA
-NULL|NULL|SANTA CRUZ, CA|USA
-NULL|NULL|Brooklyn, New York|USA
-NULL|NULL|El Cajon Ca|USA
-NULL|NULL|TOY SHOW|USA
-NULL|NULL|Suffield|USA
-NULL|NULL|Pittsburgh - Home of Steelers !|USA
-NULL|NULL|OCALA, FL|USA
-NULL|NULL|Tammy's Treasures Wisconsin|USA
-NULL|NULL|Ithaca, NY (the original Hollywood)|USA
-NULL|NULL|El Cajon Ca|USA
-NULL|NULL|Chandler,Az.|USA
-NULL|NULL|Hillsboro, OR|USA
-NULL|NULL|Akron, OH|USA
-NULL|NULL|Baltimore, MD|USA
-NULL|NULL|Northern California|USA
-NULL|NULL|New Jersey|USA
-NULL|NULL|El Cajon Ca|USA
-NULL|NULL|Virginia|USA
-NULL|NULL|San Pedro|USA
-NULL|NULL|Corner Gifts|USA
-NULL|NULL|Ewing, Kentucky|USA
-NULL|NULL|FARGO, ND.|USA
-NULL|NULL|HAPPY BIRTHDAY JESUS!!|USA
-NULL|NULL|FRIZZ COLECTIBLES (888) 626 - 6333|USA
-NULL|NULL|DEXTER CITY ANTIQUE MALL|USA
-NULL|NULL|Japan|Japan
-NULL|NULL|New York City Area|USA
-NULL|NULL|allentown ,pa|USA
-NULL|NULL|Bay State|USA
-NULL|NULL|allentown ,pa|USA
-NULL|NULL|Paducah Kentucky|USA
-NULL|NULL|Sacramento|USA
-NULL|NULL|LONG ISLAND, NY|USA
-NULL|NULL|Katy, Texas|USA
-NULL|NULL|Georgia|USA
-NULL|NULL|Wildomar, CA|USA
-NULL|NULL|BC|Canada
-NULL|NULL|Lilburn, GA|USA
-NULL|NULL|Corner Gifts|USA
-NULL|NULL|ozarks|USA
-NULL|NULL|Valley of the Sun|USA
-NULL|NULL|Rochester, Ny|USA
-NULL|NULL|Clarksville, TN|USA
-NULL|NULL|NY|USA
-NULL|NULL|Syracuse Orange Sports|USA
-NULL|NULL|King of Tapestry, South Carolina|USA
-NULL|NULL|Southern Alberta|Canada
-NULL|NULL|Los Angeles, CA|USA
-NULL|NULL|allentown ,pa|USA
-NULL|NULL|Southern Pines, NC|USA
-NULL|NULL|allentown ,pa|USA
-NULL|NULL|Sunny Florida|USA
-NULL|NULL|Midwest|USA
-NULL|NULL|ozarks|USA
-NULL|NULL|Tulsa, OK|USA
-NULL|NULL|Kansas City, MO|USA
-NULL|NULL|SEE ALL MY AUCTIONS|USA
-NULL|NULL|Valles Mines MO|USA
-NULL|NULL|atlanta|USA
-NULL|NULL|atlanta|USA
-NULL|NULL|Bartlesville, Oklahoma|USA
-NULL|NULL|Bridgewater NJ|USA
-NULL|NULL|The Bronx|USA
-NULL|NULL|Seattle, WA|USA
-NULL|NULL|The Bronx|USA
-NULL|NULL|Albany, N.Y.|USA
-NULL|NULL|south subs|USA
-NULL|NULL|AZ|USA
-NULL|NULL|Ohio|USA
-NULL|NULL|PROUD TO BE A FREE AMERICAN|USA
-NULL|NULL|Brooklyn|USA
-NULL|NULL|Dreamstrands Comics & Such, Seattle|USA
-NULL|NULL|Dreamstrands Comics & Such, Seattle|USA
-NULL|NULL|Please Check Out My Other Auctions!!!|USA
-NULL|NULL|Free shipping when you win 3 or more !|USA
-NULL|NULL|Holt|USA
-NULL|NULL|Berks County|USA
-NULL|NULL|FREDERICKSBURG VA PAYPAL ACCEPTED|USA
-NULL|NULL|Kansas City, MO|USA
-NULL|NULL|Seattle, WA|USA
-NULL|NULL|Detroit Michigan USA|USA
-NULL|NULL|Brownsburg, Indiana|USA
-NULL|NULL|Fresno, CA|USA
-NULL|NULL|cant say-don't wanna get abducted again|USA
-NULL|NULL|NO RESERVE|USA
-NULL|NULL|Chicago, IL|USA
-NULL|NULL|Sayville|USA
-NULL|NULL|Farmington, CT|USA
-NULL|NULL|Del Mar, CA|USA
-NULL|NULL|Chicago, IL|USA
-NULL|NULL|allentown ,pa|USA
-NULL|NULL|Dallas, Tx|USA
-NULL|NULL|Seattle, WA|USA
-NULL|NULL|Jackson WI|USA
-NULL|NULL|Atascosa, TX|USA
-NULL|NULL|Woodland Hills, CA|USA
-NULL|NULL|San Francisco, CA|USA
-NULL|NULL|Woodland Hills, CA|USA
-NULL|NULL|Washington State|USA
-NULL|NULL|Clover, SC|USA
-NULL|NULL|Clover, SC|USA
-NULL|NULL|Clover, SC|USA
-NULL|NULL|Clover, SC|USA
-NULL|NULL|Clover, SC|USA
-NULL|NULL|Clover, SC|USA
-NULL|NULL|Clover, SC|USA
-NULL|NULL|Clover, SC|USA
-NULL|NULL|Roseville, CA|USA
-NULL|NULL|Southern California|USA
-NULL|NULL|Southern California|USA
-NULL|NULL|dallas, texas|USA
-NULL|NULL|MOTTRAM, CHESHIRE|United Kingdom
-NULL|NULL|PA|USA
-NULL|NULL|AUSTRALIA - HOME OF THE DUFF!!!!!|Australia
-NULL|NULL|USA|USA
-NULL|NULL|USA|USA
-NULL|NULL|the Heartland|USA
-NULL|NULL|PHILLY|USA
-NULL|NULL|Scottsdale, AZ|USA
-NULL|NULL|PALM HARBOR|USA
-NULL|NULL|!!! Bid Now !!!|Canada
-NULL|NULL|ALABAMA|USA
-NULL|NULL|Camden, Maine|USA
-NULL|NULL|North|USA
-NULL|NULL|Please View My Other Auctions!!|USA
-NULL|NULL|lower michigan|USA
-NULL|NULL|Coral Gables|USA
-NULL|NULL|In The Country|USA
-NULL|NULL|midwest|USA
-NULL|NULL|COLTON, NY, FOOTHILLS OF THE ADIRONDACKS|USA
-NULL|NULL|BROWNS TOWN|USA
-NULL|NULL|East Coast|USA
-NULL|NULL|La Mesa|USA
-NULL|NULL|Cleveland, Ohio|USA
-NULL|NULL|Singapore|Singapore
-NULL|NULL|New Jersey|USA
-NULL|NULL|Northwest|USA
-NULL|NULL|Florida|USA
-NULL|NULL|Lancaster County|USA
-NULL|NULL|Albany,N.Y.|USA
-NULL|NULL|RUMFORD RI|USA
-NULL|NULL|new jersey|USA
-NULL|NULL|Pittsburgh - Home of Steelers !|USA
-NULL|NULL|Pittsburgh - Home of Steelers !|USA
-NULL|NULL|Long Island New York|USA
-NULL|NULL|Ohio|USA
-NULL|NULL|N. Caldwell, NJ|USA
-NULL|NULL|NC|USA
-NULL|NULL|Eden Prairie, MN|USA
-NULL|NULL|Needmore PA|USA
-NULL|NULL|Bag End|USA
-NULL|NULL|N. Caldwell, NJ|USA
-NULL|NULL|Hartford, CT|USA
-NULL|NULL|AtomicPlanet.net|USA
-NULL|NULL|Indianapolis, IN|USA
-NULL|NULL|WE HAVE GOT WHAT YOU NEED|USA
-NULL|NULL|Vail, AZ|USA
-NULL|NULL|BROOKLYN, NY|USA
-NULL|NULL|Sunny So. California|USA
-NULL|NULL|Douglas County, Georgia|USA
-NULL|NULL|Mountain View, CA|USA
-NULL|NULL|Redmond, Washington|USA
-NULL|NULL|BeRkShIrE CoUnTy|USA
-NULL|NULL|the suburbs|USA
-NULL|NULL|Shenandoah Valley, VA|USA
-NULL|NULL|Bentleyville, Pa.|USA
-NULL|NULL|Crawford County, Georgia|USA
-NULL|NULL|PAYPAL ACCEPTED!!!|USA
-NULL|NULL|dutchess county|USA
-NULL|NULL|Bakersfield, Ca|USA
-NULL|NULL|North Florida|USA
-NULL|NULL|BROOKLYN, NY|USA
-NULL|NULL|Wilmington|USA
-NULL|NULL|Scottsdale, AZ|USA
-NULL|NULL|Brooklyn,NY|USA
-NULL|NULL|Sunbury, PA 17801|USA
-NULL|NULL|OSHAWA , ONTARIO|Canada
-NULL|NULL|OSHAWA , ONTARIO|Canada
-NULL|NULL|Wilmington|USA
-NULL|NULL|WILMINGTON, DE|USA
-NULL|NULL|MONTGOMERY, ALABAMA SUGAH! 334-273-4700|USA
-NULL|NULL|OSHAWA , ONTARIO|Canada
-NULL|NULL|OSHAWA , ONTARIO|Canada
-NULL|NULL|OSHAWA , ONTARIO|Canada
-NULL|NULL|LAKE ORONO|USA
-NULL|NULL|Southern Missouri|USA
-NULL|NULL|DeWitt, MI|USA
-NULL|NULL|Southern California|USA
-NULL|NULL|PA|USA
-NULL|NULL|Portland, OR|USA
-NULL|NULL|Indianapolis|USA
-NULL|NULL|Las Vegas NV|USA
-NULL|NULL|BROOKLYN, NY|USA
-NULL|NULL|montreal|Canada
-NULL|NULL|Boise, Idaho|USA
-NULL|NULL|Sydney|Australia
-NULL|NULL|Canoga Park|USA
-NULL|NULL|ClickandCarry.com -=- Atlanta Offices|USA
-NULL|NULL|Falls Church|USA
-NULL|NULL|EASTERN CANADA|Canada
-NULL|NULL|california|USA
-NULL|NULL|Medford, NY|USA
-NULL|NULL|Dayton, Ohio|USA
-NULL|NULL|NEVADA|USA
-NULL|NULL|Third Zone 1-800-447-2093|USA
-NULL|NULL|Northern Ca|USA
-NULL|NULL|~*In the back of Santa's Closet*~|USA
-NULL|NULL|VA|USA
-NULL|NULL|Central Florida|USA
-NULL|NULL|Charleston, South Carolina|USA
-NULL|NULL|Massachusetts|USA
-NULL|NULL|allentown ,pa|USA
-NULL|NULL|Queen City|USA
-NULL|NULL|NY|USA
-NULL|NULL|PAY-PAL|USA
-NULL|NULL|Denver, CO|USA
-NULL|NULL|Valencia|USA
-NULL|NULL|Texas|USA
-NULL|NULL|california|USA
-NULL|NULL|Riverhead, NY|USA
-NULL|NULL|AUBURN CA.|USA
-NULL|NULL|New Orleans, LA|USA
-NULL|NULL|NEBRASKA!!|USA
-NULL|NULL|Florida|USA
-NULL|NULL|Holland|Netherlands
-NULL|NULL|CA|USA
-NULL|NULL|Windy & Wet, OR|USA
-NULL|NULL|california|USA
-NULL|NULL|Central Texas|USA
-NULL|NULL|N.Carolina|USA
-NULL|NULL|Maine|USA
-NULL|NULL|Alabama|USA
-NULL|NULL|Halstock, Dorset|USA
-NULL|NULL|Montgomery, AL|USA
-NULL|NULL|Check out my other BUY IT NOW! ASM auctions!!|USA
-NULL|NULL|riverside, ca|USA
-NULL|NULL|Northern VA|USA
-NULL|NULL|Palm Springs Ca.|USA
-NULL|NULL|columbus, oh|USA
-NULL|NULL|Maine|USA
-NULL|NULL|Medford, NY|USA
-NULL|NULL|Sacramento|USA
-NULL|NULL|ne us|USA
-NULL|NULL|Sacramento|USA
-NULL|NULL|Berks County, PA|USA
-NULL|NULL|Check out my other BUY IT NOW! ASM auctions!!|USA
-NULL|NULL|Sunny Florida|USA
-NULL|NULL|Tulsa, OK|USA
-NULL|NULL|Festus|USA
-NULL|NULL|Tulsa, OK|USA
-NULL|NULL|Tulsa, OK|USA
-NULL|NULL|Tulsa, OK|USA
-NULL|NULL|columbus, oh|USA
-NULL|NULL|Mount Airy, MD|USA
-NULL|NULL|www.dnhcollectibles.com|USA
-NULL|NULL|HAPPY HOLIDAYS|USA
-NULL|NULL|BROOKLYN N.Y.|USA
-NULL|NULL|Portland, OR|USA
-NULL|NULL|Indianapolis|USA
-NULL|NULL|GO DIAMONDBACKS, AZ!|USA
-NULL|NULL|Antelope Country Arizona|USA
-NULL|NULL|CA USA|USA
-NULL|NULL|Happy Holidays!|USA
-NULL|NULL|midvalley|USA
-NULL|NULL|Mid MO|USA
-NULL|NULL|Scottsdale, AZ|USA
-NULL|NULL|Morgantown,WV|USA
-NULL|NULL|Third Zone 1-800-447-2093|USA
-NULL|NULL|Central, NJ|USA
-NULL|NULL|Foresthill, Ca|USA
-NULL|NULL|Golden|USA
-NULL|NULL|Bend, Oregon|USA
-NULL|NULL|MISSOURI|USA
-NULL|NULL|Colorado|USA
-NULL|NULL|Upper, Midwest -I Accept PAYPAL|USA
-NULL|NULL|CA|USA
-NULL|NULL|Corpus Christi, Tx|USA
-NULL|NULL|Washington, IN|USA
-NULL|NULL|Basket Country|USA
-NULL|NULL|Orange, CA|USA
-NULL|NULL|Toronto, Ontario, Canada|Canada
-NULL|NULL|Central Texas|USA
-NULL|NULL|New York|USA
-NULL|NULL|Orange, CA|USA
-NULL|NULL|Los Angeles, CA|USA
-NULL|NULL|Beautiful Belle Isle|USA
-NULL|NULL|Whittier, CA|USA
-NULL|NULL|Canoga Park|USA
-NULL|NULL|Rose Hill,KS|USA
-NULL|NULL|Basket Country|USA
-NULL|NULL|USA|USA
-NULL|NULL|N/A|USA
-NULL|NULL|EVERETT, PA|USA
-NULL|NULL|N/A|USA
-NULL|NULL|HAPPY HOLIDAYS|USA
-NULL|NULL|Maine|USA
-NULL|NULL|Riverview|USA
-NULL|NULL|Sherman Oaks, CA 91423|USA
-NULL|NULL|Little Elm, Tx|USA
-NULL|NULL|NEWBURYPORT|USA
-NULL|NULL|Hawaii|USA
-NULL|NULL|Montreal|Canada
-NULL|NULL|Boston|USA
-NULL|NULL|The Emerald City|USA
-NULL|NULL|WEBSTER , FLORIDA, SUNSHINE , STATE|USA
-NULL|NULL|BEAUTIFUL MONTEREY BAY|USA
-NULL|NULL|Upstate NY|USA
-NULL|NULL|The Irish Hills, Brooklyn, MI|USA
-NULL|NULL|Wilmington, NC|USA
-NULL|NULL|Orange, CA|USA
-NULL|NULL|SPARTANBURG,SC|USA
-NULL|NULL|Enterprise, Al.|USA
-NULL|NULL|western|USA
-NULL|NULL|El Paso,TX|USA
-NULL|NULL|Sandy Hook, KY|USA
-NULL|NULL|CALEXICO CA|USA
-NULL|NULL|USA|USA
-NULL|NULL|MIB *ORNAMENT* SALE!|USA
-NULL|NULL|Burbank,Ca|USA
-NULL|NULL|Ohio|USA
-NULL|NULL|Kingston, N.Y.|USA
-NULL|NULL|El Paso,TX|USA
-NULL|NULL|Hawaii|USA
-NULL|NULL|USA|USA
-NULL|NULL|Ca ______ I SHIP WITHIN THE U.S. ONLY|USA
-NULL|NULL|West Texas|USA
-NULL|NULL|Buffalo, NY|USA
-NULL|NULL|Evansville Indiana|USA
-NULL|NULL|San Diego|USA
-NULL|NULL|Central Ohio|USA
-NULL|NULL|VILLAGE COMICS 214 SULLIVAN ST|USA
-NULL|NULL|Knoxville, TN|USA
-NULL|NULL|SMOKEY MOUNTAINS|USA
-NULL|NULL|Tucson, AZ|USA
-NULL|NULL|california|USA
-NULL|NULL|Andover, NJ|USA
-NULL|NULL|Wyomissing|USA
-NULL|NULL|Brooklyn,NY|USA
-NULL|NULL|HOME OF THE ROCK AND ROLL HALL OF FAME|USA
-NULL|NULL|Austin, TX|USA
-NULL|NULL|Candle Lover|USA
-NULL|NULL|Huffman|USA
-NULL|NULL|Aurora, CO|USA
-NULL|NULL|Colorado|USA
-NULL|NULL|We love Hallmark Ornaments|USA
-NULL|NULL|Oklahoma|USA
-NULL|NULL|San Antonio, TX|USA
-NULL|NULL|MUSIC CITY USA|USA
-NULL|NULL|alabama|USA
-NULL|NULL|Mn|USA
-NULL|NULL|CHECK OUR OTHER AUCTIONS, SAVE ON SHIPPING !!|USA
-NULL|NULL|Indiana Bound|USA
-NULL|NULL|ct|USA
-NULL|NULL|Champlain NY|USA
-NULL|NULL|NH|USA
-NULL|NULL|Upstate NY|USA
-NULL|NULL|Grayslake, IL USA|USA
-NULL|NULL|ILLINOIS|USA
-NULL|NULL|north of san diego border|USA
-NULL|NULL|West Texas|USA
-NULL|NULL|Midwest|USA
-NULL|NULL|FLORISANT MO|USA
-NULL|NULL|Staten Island , New York|USA
-NULL|NULL|Austin, TX|USA
-NULL|NULL|hickory nc|USA
-NULL|NULL|Sacramento|USA
-NULL|NULL|Check out my Storefront! _|USA
-NULL|NULL|United We Stand!!|USA
-NULL|NULL|Southern California Desert|USA
-NULL|NULL|Mn.|USA
-NULL|NULL|West Plains, MO|USA
-NULL|NULL|Austin, TX|USA
-NULL|NULL|Massachusetts|USA
-NULL|NULL|Midwest|USA
-NULL|NULL|Toronto, Ontario|Canada
-NULL|NULL|CT|USA
-NULL|NULL|Massachusetts|USA
-NULL|NULL|VIRGINIA|USA
-NULL|NULL|HAPPY HOLIDAYS!|USA
-NULL|NULL|abingdon|USA
-NULL|NULL|St. Louis|USA
-NULL|NULL|texas|USA
-NULL|NULL|CENTRAL CALIFORNIA|USA
-NULL|NULL|Phoenix|USA
-NULL|NULL|hickory nc|USA
-NULL|NULL|Little Elm, Tx|USA
-NULL|NULL|Merry Christmas|USA
-NULL|NULL|USA|USA
-NULL|NULL|hickory nc|USA
-NULL|NULL|Windy & Wet, OR|USA
-NULL|NULL|hickory nc|USA
-NULL|NULL|hickory nc|USA
-NULL|NULL|pgh.|USA
-NULL|NULL|Everett , WA|USA
-NULL|NULL|Missouri|USA
-NULL|NULL|Kansas City Kansas|USA
-NULL|NULL|Halifax|Canada
-NULL|NULL|GLENDALE AZ|USA
-NULL|NULL|ATHENS GEORGIA|USA
-NULL|NULL|Mid Michigan|USA
-NULL|NULL|BIDDING STARTS $3.00 BELOW COVER!|USA
-NULL|NULL|San Francisco, CA|USA
-NULL|NULL|Texas|USA
-NULL|NULL|Rosamond|USA
-NULL|NULL|Fremont, CA|USA
-NULL|NULL|Mobile, Alabama|USA
-NULL|NULL|Portland|USA
-NULL|NULL|Marshfield|USA
-NULL|NULL|Western NY|USA
-NULL|NULL|Ravensdale, WA 98051|USA
-NULL|NULL|Staten Island , New York|USA
-NULL|NULL|Southern Indiana|USA
-NULL|NULL|Corvallis, Oregon|USA
-NULL|NULL|Staten Island , New York|USA
-NULL|NULL|Chattanooga|USA
-NULL|NULL|Maiden Faire|USA
-NULL|NULL|Miami, Florida|USA
-NULL|NULL|Williams Bay, Wisconsin|USA
-NULL|NULL|Chattanooga|USA
-NULL|NULL|REGINA,SK|Canada
-NULL|NULL|Mobile, Alabama|USA
-NULL|NULL|Williams Bay, Wisconsin|USA
-NULL|NULL|Mobile, Alabama|USA
-NULL|NULL|Hartsdale, N.Y.|USA
-NULL|NULL|Mobile, Alabama|USA
-NULL|NULL|Kettering, OH|USA
-NULL|NULL|Mobile, Alabama|USA
-NULL|NULL|Lafayette, CA|USA
-NULL|NULL|Cleveland, Ohio|USA
-NULL|NULL|Hillsborough, NC|USA
-NULL|NULL|INDY|USA
-NULL|NULL|New Zealand|New Zealand
-NULL|NULL|S W FLORIDA 33950 PUNTA GORDA!|USA
-NULL|NULL|MIAMI|USA
-NULL|NULL|PA (Residents Pay 6% Sales Tax)|USA
-NULL|NULL|New York|USA
-NULL|NULL|Kentucky|USA
-NULL|NULL|Nice group of books from Central NY!|USA
-NULL|NULL|Arkansas City|USA
-NULL|NULL|NYC|USA
-NULL|NULL|HAPPY HOLIDAYS FROM OSHKOSH!!!!|USA
-NULL|NULL|NJ|USA
-NULL|NULL|NJ|USA
-NULL|NULL|NJ|USA
-NULL|NULL|Iowa|USA
-NULL|NULL|Wethersfield|USA
+rulabula|1035|its a dry heat|USA
+dollface94|221|LONG ISLAND USA|USA
+fallsantiques|952|MIlwaukee Wi|USA
+fallsantiques|952|MIlwaukee Wi|USA
+lwm123|813|Missouri The Show Me State|USA
+dmaley|8226|ga|USA
+sharkbud|5|Cleveland,OH|USA
+scripophily.com|2038|Bob.com, Virginia|USA
+gracie3@kc.rr.com|271|Check out my other Auctions and Save BIG|USA
+nikkinap|69|NY|USA
+browseandbuy|1314|Portland, Oregon|USA
+captwhiz|1054|NJ,USA|USA
+tjsdsm|439|Iowa|USA
+robray|2039|THE SHORES of LAKE ERIE ~~OH~~|USA
+parrothead88|25430|FLORIDA ~~~ 800-981-9064 ~~~8am - 10pm 7 days|USA
+joetsales|110|FLORIDA|USA
+ubese2@aol.com|704|I SHIP WORLD WIDE & ACCEPT PAYPAL!!!!!!!!!!!!|USA
+iconpix|1759|Long Island, New York|USA
+docnano|580|Tucson, AZ|USA
+djaap.shawneelink.net|89|Creal Springs, IL|USA
+sea-bill|281|near Seattle|USA
+juriju@hotmail.com|202|Los Angeles, CA|USA
+edsoldstuff|184|Avon, MA 02322|USA
+msthrifty|745|NC|USA
+yankeeladybugg|372|Pennsylvania|USA
+dustknot|1522|CORVALLIS, OREGON|USA
+vaness2604@aol.com|1378|Tennessee|USA
+pflan1|758|Oak Harbor, WA|USA
+www.cornerantiques.com|1514|cornerantiques.com|USA
+neonbl|1147|Los Angeles|USA
+kathysnostalgia|1063|Scottsdale, Arizona, U.S.A.|USA
+nsnrf4max|405|NW WI|USA
+cjeworks|30|MARION OHIO|USA
+buythebookri|876|Newport County, RI|USA
+fredkarger|332|dutchess county|USA
+hidehocomics|372|Santa Monica, CA|USA
+emily-and-co|66|Save our wildlife in PA!|USA
+diamondintlgal|50|Baltimore/D.C.|USA
+colonel46|226|Bushnell,Il.|USA
+saraly|1267|Royer|USA
+osofine|256|Northwest Suburbs|USA
+mitchelladro@aol.com|262|LI/NY|USA
+mwire|7226|FRANKFORT, IN|USA
+krpkid|226|R.C.|USA
+2000more|1|Spring, Texas|USA
+bigpix|794|Lafayette CA|USA
+rulabula|1035|its a dry heat|USA
+stickerman@edgeonesigns.com|2145|Tulsa, OK|USA
+landon777|1110|Folsom, CA|USA
+711jmj|431|Ocean County, NJ|USA
+711jmj|431|Ocean County, NJ|USA
+kpandthelady|736|Texas|USA
+cutsiepups|484|CA|USA
+rvmartin@ellijay.com|399|none|USA
+otterbuy|1801|State of Maine|USA
+marena3@bigpond.com.au|252|Australia|Australia
+fredkarger|332|dutchess county|USA
+wickedrood|0|Toledo, OH|USA
+patmarysue@msn.com|268|Diamond Bar,CA-check out our other items!!|USA
+rodgunltd|732|Moose Jaw ,Sask.|Canada
+mrpiddles@netzero.net|100|dallas|USA
+radio-shirley|1101|Avon, Colorado|USA
+dotch|2803|Glasgow, UK We Ship Worldwide!|United Kingdom
+lonewolf444|85|SMALLTOWN USA|USA
+wetwo@earthlink.net|1171|Riverside, Ca|USA
+brother-flounder|11|RICHMOND, VA|USA
+dotch|2803|Glasgow, UK We Ship Worldwide!|United Kingdom
+badortiesrecords|325|Gainesville, FL|USA
+kinderplay|23|AZ|USA
+angel51696@aol.com|4965|Wichita Falls, TX|USA
+heat911|20|Tacoma, Washington|USA
+russellsgiftstore|43|lexington ms|USA
+marebob1@aol.com|618|Villa Park,|USA
+duffyswarehouse|60|TOLEDO, OHIO|USA
+oliveroswald|443|San Diego, CA|USA
+hrandf@aol.com|323|S.C. BEACH|USA
+bcponder|1517|Levittown|USA
+slmjon|862|NC|USA
+www.fleamarket|324|ONTARIO, CANADA|Canada
+comics-outpost|1002|Stowe, VT|USA
+wayneduz|1035|WP, FL 32792|USA
+saege1|4563|Colorado|USA
+chicagogifts|340|PAY WITH PAYPAL|USA
+manhattensmarket@aol.com|381|Huntington, NY|USA
+andrews89|150|Fayetteville, NC *Pope Air Force Base*|USA
+ivacpa@hotmail.com|187|Lakeland, FL|USA
+kalinakaloka|1835|FLORIDA|USA
+edierowe@proaxis.com|1060|Jefferson, Or.|USA
+2000more|1|Spring, Texas|USA
+tbfour@peoplepc.com|1473|WV|USA
+antiquechic10|486|Michigan|USA
+mcb56|1413|Area 51|USA
+ante-up|3481|Bedford OH|USA
+century869|566|CINCINNATI|USA
+nellwooten|4|Houston|USA
+cozz|2760|VT|USA
+capitaltreasure@hotmail.com|34|Elk Grove, CA|USA
+sales@dragonladyshop.com|869|Toronto, ON|Canada
+meridian9|471|Houston, TX|USA
+jimk64|767|new jersey|USA
+bettsyrn|880|Eastern CT|USA
+mracewillie@netzero.net|898|Beloit, WI|USA
+chantments|685|Highland, Indiana|USA
+hollybax222|877|South Georgia|USA
+gameplezer@aol.com|532|Spring Lake, NC|USA
+gottahaveit19|99|Hamilton! OH|USA
+newadditions|3524|Southern NJ|USA
+mmcomics|1667|Orland Park 708-349-2486|USA
+ironclad254|345|New Windsor, NY|USA
+lindsays4|42|The Fort, IN|USA
+matthewbear|1042|Washington State|USA
+marilb|949|MOTOR CITY|USA
+css221|11|The Great Pacific Northwest|USA
+stilz|729|KENTUCKY|USA
+warj|844|Madison, WI|USA
+neverland@neverlandcomics.com|489|Neverland Comics / Roseburg Oregon|USA
+fredkarger|332|dutchess county|USA
+donalcath@yahoo.com|326|ft lauderdale fl|USA
+paddlegrabber|0|Brillion, WI|USA
+friendco|205|Denver, CO|USA
+bigdawg85|172|DIXIE|USA
+hingeboxes|607|IL - Free USA S/H/I on 4 or More Hinged Boxes|USA
+happyappe|710|Covington La|USA
+gifconsult|6|Paducah, KY|USA
+relish0188|739|Waukesha, WI|USA
+cartooncomics|817|LONG ISLAND|USA
+ittsallmine|156|arkansas|USA
+bgilliam|3026|Ridgefield,CT.06877|USA
+skevco|2025|Montreal|Canada
+nicerugs|267|Long Island|USA
+kristiques|960|West Michigan|USA
+nowandthencomics|1162|Beautiful Bluegrass Music State!|USA
+catsmeow-wow|282|Cook County, IL|USA
+nt|1112|North Dakota|USA
+krm1962|1115|PAY PAL ACCEPTED|USA
+bbcenter|1338|LIsle, IL|USA
+snowtime56|626|san diego, ca|USA
+etcforsalebyus|5187|ORLANDO, FL|USA
+slrc@mediaone.net|357|CENTRAL VALLEY|USA
+amricons@ix.netcom.com|4622|CA, USA|USA
+bilbo32|972|toronto ontario|USA
+bigmama|728|CT.|USA
+youpeople|155|Lexington, NE|USA
+msteelcurtian@aol.com|616|NJ|USA
+matthewbear|1042|Washington State|USA
+backyarddave|947|MIDWEST|USA
+smokiecat|5266|Painesvile|USA
+no-reserve|2044|Pecatonica, IL|USA
+libbylibbylibby|1673|Pittsburgh - Home of Steelers !|USA
+lifetimecollection|57|Merry Christmas and Happy New Year|USA
+anteks|938|Allentown, PA|USA
+hallmarker@rmci.net|485|Boise, ID|USA
+eclectictreasures!|276|Nebraska|USA
+wl111|476|Outer Banks|USA
+undun|1936|Rio, Home of Undun Wind ~ Dun QH Stallion, WI|USA
+livory|44|Tallahassee, FL|USA
+kranmarsgifts|78|The Garden Spot of the World -- Brooklyn USA!|USA
+kranmarsgifts|78|The Garden Spot of the World -- Brooklyn USA!|USA
+irish_peddler|312|White Mountains Region New Hampshire|USA
+frankynj|1235|NJ|USA
+dnacca@televar.com|178|MOSES LAKE, WASHINGTON|USA
+redhead10|2398|Eden Prairie, MN|USA
+ebay@gulftreasures.com|858|Pace, Florida|USA
+misssunshine|125|Buffalo, NY|USA
+powercall|365|Sterling, Virginia|USA
+sekanocc|283|Fort Scott, KS|USA
+thecollectorscloset|2204|Florida|USA
+belly1992|205|United We Stand, God Bless!|USA
+dorisandhoward@hotmail.com|12|Cooperstown, NY|USA
+thesnowbabyplace.com|155|Pittsboro, North Carolina|USA
+quiethorizons|392|Shaftsbury, Vermont|USA
+designartists|1507|Phoenix|USA
+amazemerae|305|Chicago IL|USA
+mysticdreams24|81|GTA,ONTARIO|Canada
+shirleyjean3|1254|Pennsylvania|USA
+seattletreasures|240|Pacific Northwest|USA
+dwlfwdbk@gwi.net|3859|ALFRED, MAINE 04002|USA
+regalmercantile@aol.com|106|Palatka, Florida|USA
+satori71|82|Miami, FL|USA
+houseoftam|4549|Diamondhead, MS|USA
+ijustloveauctions|1444|New York State|USA
+radio-shirley|1101|Avon, Colorado|USA
+xendancer|548|Santa Clara, CA|USA
+dhans99|2|morris, il|USA
+smv182|491|Southwestern NY|USA
+leascorner|2160|REIDSVILLE, N C|USA
+rascal2|431|NJ|USA
+shellyvee26|1535|Beantown|USA
+yeagstar|15|Baltimore, MD|USA
+abevy|1078|St. Clair, MI.|USA
+jhwalt1@msn.com|5|Collingswood, NJ|USA
+micnicnac|79|Birmingham, Alabama|USA
+newbs1|464|PA|USA
+thatsagooddeal@aol.com|1575|Fabrics by the Yard! Worldwide Bids Welcome!|USA
+sharkey1129@aol.com|724|New Jersey|USA
+ctyankee00|436|New London, CT|USA
+burgie|1398|Georgia|USA
+doctorsports|5342|New Jersey|USA
+genehubcap@aol.com|2934|LINCOLN, NEBRASKA|USA
+sam425@tampabay.rr.com|751|Palm Harbor, Florida|USA
+hobbyauctions|791|McLean, VA|USA
+utahstan|2151|Stan Sanders Bottle Museum-So.Salt Lake,Ut.|USA
+golddust49|224|COLTON|USA
+genehubcap@aol.com|2934|LINCOLN, NEBRASKA|USA
+gomyrna|130|Kansas City, MO|USA
+dardean|274|Iowa|USA
+genehubcap@aol.com|2934|LINCOLN, NEBRASKA|USA
+betsys@lhtc.net|1075|BETSY'S COLLECTIONS DONEGAL PA|USA
+jaherrick@webtv.com|59|Oxnard, Ca.|USA
+comics-outpost|1002|Stowe, VT|USA
+jenfaswa|351|ParkForest, IL.|USA
+junky1050|525|NJ|USA
+gatsbykid@cs.com|0|STLOUIS,MISSOURI|USA
+momastreasures|431|dayton ohio home of hangar 13|USA
+gotuit|478|Base of the Berkshires|USA
+jeweltone2|44|Bethlehem, PA|USA
+barbaratoomy|231|Petaluma, Calif.|USA
+partizrfun|880|Texas|USA
+rodgunltd|732|Moose Jaw ,Sask.|Canada
+amricons@ix.netcom.com|4622|CA, USA|USA
+mochino47|87|South Yorkshire|United Kingdom
+betsys@lhtc.net|1075|BETSY'S COLLECTIONS DONEGAL PA|USA
+emmuttdog|9|Riverside,Iowa|USA
+icanfind|107|Indiana|USA
+serpi@earthlink.net|380|SI, NY|USA
+rfenetquest|4056|White Lake, MI|USA
+automatic3|244|Sandhills, NC|USA
+boneil123|34|Milwaukee|USA
+richmondroad|15|BEACHWOOD, OH|USA
+goldenprincess2000@yahoo.com|99|Indianapolis. IN|USA
+pastlives|1182|Alpharetta, GA|USA
+antiquecomplex|2897|Berks County, PA|USA
+dotlinda|2331|western ma|USA
+cardsandsuch|1486|Topeka, Kansas|USA
+needful_things55|216|ALTAMONT, IL|USA
+pamcrawf|716|Atlanta, GA|USA
+on44thst@aol.com|3483|Lawton--Ft. Sill|USA
+jaysfinds|540|Liberty, MO|USA
+barny33|576|Jacksonville, Fl|USA
+jolo1974|307|Millersville, PA|USA
+gsimas1@aol.com|3266|California|USA
+nutuyu|529|NEBRASKA|USA
+slsmi@aol.com|41|Phoenix, AZ|USA
+lccomics|1649|Oconomowoc, WI|USA
+flex442|1590|S.Fl|USA
+beccakb9768@aol.com|910|Tarheel State NC|USA
+bennettjems|72|St. Louis, Missouri|USA
+gwstone|1043|NH|USA
+mrgary43|469|florida|USA
+mrshotglass|2153|Williams Bay, Wisconsin|USA
+srivera409|60|Long Island|USA
+hummer38|103|Southwest, CT.|USA
+maxste|1822|Midwest|USA
+ron1267@webtv.net|505|Fayetteville, Pa.|USA
+instructor1|1722|fonda,ny|USA
+fredkarger|332|dutchess county|USA
+centerjd2@aol.com|109|TEXAS|USA
+bondiles|2690|Combine, Texas|USA
+silverjain|348|San Antonio TX|USA
+horvat1|613|Greenwood, WI|USA
+jbonline|440|Southwest Iowa|USA
+pinkshoe|727|Iron Range|USA
+pumba45|715|DOOMSDAY SQUADRON|USA
+d.oz.man|306|Edmonton, Alberta|Canada
+badgersford|487|Offices in Spain & the UK - We Ship Worldwide|Spain
+badgersford|487|Offices in Spain & the UK - We Ship Worldwide|Spain
+diamond323|2254|San Francisco, California|USA
+rdhoagla|574|WISC|USA
+badgersford|487|Offices in Spain & the UK - We Ship Worldwide|Spain
+jimk64|767|new jersey|USA
+wbroust|0|SYRACUSE,NY|USA
+comicrunner|108|Missouri|USA
+luthjerry@hotmail.com|853|Brownstown, Michigan|USA
+proser1|277|Akron, Ohio|USA
+shortcakequeen@hotmail.com|111|Cambridge, Minnesota|USA
+jirvin@tyler.net|217|East Texas|USA
+debsthisnthat|486|Clarksburg, WV|USA
+oldcarnut@carroll.com|508|New Jersey|USA
+johncolacad|969|Bloomsburg|USA
+downme|6884|Florida|USA
+theduke97|287|SLC, UT|USA
+daughtysews|2|Upper Marlboro, MD|USA
+chinamatchinghi@earthlink.net|405|San Diego, California|USA
+glassbooks.com|10655|Derry, NH|USA
+exillini|27|SUNNY FLORIDA|USA
+azjeanne|46|Mesa, Arizona|USA
+grbnetsales@ticon.net|2783|Milwaukee, WI|USA
+alexrulez|380|SLIME'S WORLD|USA
+thinkbach|583|Montreal|Canada
+bpcencoreeditions|1881|Center Valley, PA|USA
+lorpol|1359|Wine Country, CA|USA
+teach1754|435|HAMDEN, CT|USA
+mininut34|173|MARYSVILLE, WASHINGTON|USA
+dservette|2122|Murrysville, PA.|USA
+lewismag@home.com|1122|Virginia Beach, Virginia|USA
+ceelycoll|3999|FLORIDA|USA
+jbbtoy|254|Home of the Corvette|USA
+dadgrinn|915|PITTSBURGH|USA
+the1-2buy|2036|my busy home in the country|USA
+trashgal99|616|Trenton, NJ|USA
+sflayank|822|sunrise|USA
+lipsiervice|906|chicago|USA
+elsie.venner|911|NY NY|USA
+guybernard|325|USA|USA
+cougari|1297|Cornelius Oregon|USA
+cookiegirl09|126|usa|USA
+rosyq|414|Northwest Montana|USA
+mulberry912@aol.com|451|Georgia|USA
+grannyskleanedherattic|642|Chicago, Illinois|USA
+youwantitwegotit.net|1335|Royal Oak, MI|USA
+crafty556|2109|OHIO|USA
+frontporches|264|SO CAL|USA
+waffee|111|Inver Grove Hgts MN|USA
+klasykitti|873|Allen, Texas|USA
+aurthur|1633|Chicago|USA
+purplegirl20|58|Ontario|Canada
+frontporches|264|SO CAL|USA
+seaisle616|360|Turnersville, NJ|USA
+ggiezgg|7731|NW Arkansas|USA
+teachercan|744|British Columbia (I accept PayPal)|Canada
+lu38re|34|Cleveland Ohio|USA
+cjdelaney|496|Huntsville, Ar.|USA
+cosmo302|1026|east coast|USA
+jptorres@aol.com|1530|New Jersey|USA
+jptorres@aol.com|1530|New Jersey|USA
+biblio_tech|0|Austin, TX|USA
+thecountrymercantile|286|Old~Fashioned Country Service|USA
+antiqs4u|5347|Denver|USA
+bgraham@netpathway.com|65|Newton, Mississippi-Looking for Santa|USA
+ccc11|2566|New Orleans|USA
+ccc11|2566|New Orleans|USA
+the1-2buy|2036|my busy home in the country|USA
+hagler@bbc.net|278|ALLIANCE, NEBRASKA|USA
+bbcards25|1601|Western PA|USA
+fundollarbills.com|1678|Memphis, TN|USA
+richrod11|80|VENTURA, CALIF.|USA
+osofine|256|Northwest Suburbs|USA
+ccc11|2566|New Orleans|USA
+funfordee|178|Dallas Or,.|USA
+ccc11|2566|New Orleans|USA
+tomar38|179|New York|USA
+frontporches|264|SO CAL|USA
+beaniemom13|1271|North Carolina|USA
+mainetique|1231|NO HANDLING CHARGES - SAVE ON SHIPPING|USA
+www.tshirtdomain.com|453|The Lone Star State|USA
+psalms27v1|6|Dayton, OH|USA
+cypresstation|167|HAPPY HOLIDAYS-CHECK MY OTHER AUCTIONS !!|USA
+quinch|290|Chicago, IL|USA
+wallst-liquidators|381|NJ|USA
+cookiejarlady34|2356|TITAN COUNTRY|USA
+lantrn1|6352|FARGO, ND.|USA
+jeffcat|678|Baltimore, MD|USA
+hebeglass|412|Amish Country PA|USA
+beaniemom13|1271|North Carolina|USA
+atticsue|330|SPOKANE VALLEY|USA
+trojan1@centurytel.net|797|OZARK MOUNTAINS|USA
+rosecomics|79|Seattle|USA
+knurl|843|York, PA Where Comics Come to Life|USA
+halthebookie|574|CT|USA
+piranhakeeper|4477|Detroit Michigan USA|USA
+rosecomics|79|Seattle|USA
+veilex|287|HAPPY HOLIDAY'S WILL COMBINE SHIPPING !!!!!!!|USA
+djal1|3848|Oakwood, OH|USA
+rustyspurwy|214|Douglas, WY|USA
+blb4648@mindspring.com|165|** MY HOUSE **|USA
+meowsrus@aol.com|4039|nj|USA
+beaniemom13|1271|North Carolina|USA
+dpegdoug@cs.com|1086|Shandon Village|USA
+bgospel|151|Burbank, CA|USA
+ne1forphun|20|Rhode Island THE OCEAN STATE|USA
+just$$stuff|2091|Venice, Fl.|USA
+kag54|781|CH-CH-CHICAGO|USA
+bbud2|2823|Pittsburgh, PA|USA
+toucanann|412|Sunrise, FL|USA
+hummelbees|36|NY Finger Lakes|USA
+t.cav.|154|Seymour, Ct|USA
+mdbskts|193|Maryland|USA
+happyjep00@aol.com|62|Odessa, TX|USA
+jimfreitag@aol.com|314|Kearney, MO|USA
+cartel.uk|1067|dorset|United Kingdom
+pirates-chest|2176|South Bend, Nebraska|USA
+doxie99|159|Check out my other auctions!!|USA
+jeff3d7|13|Birmingham, AL|USA
+mrselect|290|North Carolina|USA
+debj128@aol.com|2034|Johnstown, Pa.|USA
+frannancy|1987|New York|USA
+gatordawg|1165|Central Georgia|USA
+abbytabby|129|Alabama|USA
+debfritz@kci.net|803|COLORADO|USA
+wandering.creek@verizon.net|1508|Bothell WA|USA
+tupperlee1|536|TupperUSA|USA
+mewsgal|881|Honolulu|USA
+auggdogg|847|TUCSON, ARIZONA|USA
+glasater@airmail.net|224|MOODY|USA
+debbydeb|274|N W PA|USA
+atreasureforyou|13|Harrisburg,Pa|USA
+jdcomix|420|CINCINNATI - ORIGINAL HOME OF RAIN MAN!|USA
+commonwealth|1052|Rhode Island|USA
+ladykalico|51|Shamokin, PA|USA
+artistnelson|448|Almena Wisconsin|USA
+erbear2|2395|Southern California|USA
+waterrow|2054|Water Row, MA|USA
+rosebudsattic|231|HOME OF THE HEROES|USA
+grendel013|11|NEW JERSEY|USA
+john7145|23|Westchester County|USA
+snowangel1973|306|Jefferson City, MO|USA
+comicbooks.az@netzero.net|685|Scottsdale, Arizona|USA
+jptorres@aol.com|1530|New Jersey|USA
+spagetta|735|DAYTONA BCH FL|USA
+phantomas!|5|Phantomas Lives!|USA
+ladylin|619|Tampa, Florida|USA
+elliottfan!|1104|ESCANABA, MI|USA
+mymaizie|122|Alpharetta|USA
+empires@frontiernet.net|1557|Rochester|USA
+dawnelaine|645|NW PA|USA
+melodyea@aol.com|90|Saginaw, Michigan|USA
+sconced|904|God Bless the USA Texas|USA
+helenezl|129|Ellendale|USA
+dejahvue|80|Cincinnati OH|USA
+smcduck|1024|ND|USA
+olddad56|45|Yadkinville,NC.27055|USA
+j-man-99|859|Danville|USA
+adele@kconline.com|393|Indiana|USA
+jabale|2710|SUNNY SAN DIEGO|USA
+lindahaup@hotmail.com|174|Central PA|USA
+v-v-girl|136|Near Disneyland, Ca.|USA
+gpbabe@aol.com|2635|Chicago, IL (No Pick-ups)|USA
+mediator4@aol.com|547|West Hartford, CT|USA
+sharonscollectibles|4904|Bismarck, ND|USA
+kleahmar|601|Rochester,MN|USA
+sharonscollectibles|4904|Bismarck, ND|USA
+sharonscollectibles|4904|Bismarck, ND|USA
+irishindianu|47|North Stonington, CT|USA
+shirefan1|771|Bag End|USA
+donnabarton|177|Amarillo, TX|USA
+eagleman55|0|Providence, RI|USA
+a49erfootballfan|244|Phoenix|USA
+efritz68|87|TORRANCE|USA
+lmsimonson|1152|Ogilvie,MN|USA
+iscard@nbnet.nb.ca|1886|Canada|Canada
+geenor1|126|Southbury CT|USA
+ch-54a|1992|Harrisburg, PA|USA
+dryan43196@aol.com|76|Odessa, Mo.|USA
+dsrtwind|1118|LAS VEGAS, NEVADA 89145|USA
+bdj6020|66|Little Rock, AR|USA
+campr1954|226|Lake Charles, LA|USA
+wayin|360|VALLEY OF THE SUN|USA
+olivecar@aol.com|291|Heart Of The Midwest|USA
+ultraseven|726|SUNNY FLORIDA|USA
+swoutdoorsman|1|Edgerton, Minnesota|USA
+garsonfarms|400|Beautiful Island of Oahu|USA
+rgalvinmic|1954|ebay powerseller!|USA
+letstradecardshop|1258|Scottsdale, AZ|USA
+3jems|669|Rhode Island|USA
+1clouden|185|Pacific Northwest|USA
+mindy!1|592|Marshall, MI|USA
+treasures-online|77|Table Rock Lake|USA
+creakwalker|333|BURLINGTON, NC|USA
+algeron|128|Waterloo, Ontario|Canada
+janbla@jps.net|348|Northern California|USA
+grey2|1443|Austin Texas|USA
+allstarcar@aol.com|945|USA|USA
+dyezbick@yahoo.com|85|Champaign, IL|USA
+brnxbmbrs15|55|Northeast|USA
+grandebuffy99|460|Panama City, FL|USA
+grandebuffy99|460|Panama City, FL|USA
+pb54|1954|buffalo n.y.|USA
+hairhair|1670|BUY IT NOW AND STOP THE MADNESS!!|USA
+grannygrunt12|1066|MTN. HOME, ARKANSAS|USA
+rongreta|1989|Englishtown, New Jersey|USA
+pd2127|213|rural southwest Indiana|USA
+7seas2|8014|Lakewood, California|USA
+7seas2|8014|Lakewood, California|USA
+toyboy101|65|Providence|USA
+ka1@msn.com|1102|Ann Arbor|USA
+jkydangl1@ckt.net|389|Land of OZ|USA
+roguestuff|755|Grosse Pointe|USA
+pjtessy@aol.com|1535|Pa|USA
+only-human|10263|ORANGE COUNTY|USA
+knurl|843|York, PA Where Comics Come to Life|USA
+mtinderbox@aol.com|249|near Lincoln, Nebraska "Home of the Huskers"|USA
+cortmart|369|Indiana|USA
+mmlb|520|Maine|USA
+timenagaininc|70|Orlando|USA
+atticmice|115|South Jersey 08071|USA
+dadgrinn|915|PITTSBURGH|USA
+grannygrunt12|1066|MTN. HOME, ARKANSAS|USA
+rosieboy|74|Rock and Roll City|USA
+mjrj98|197|Iowa|USA
+thelesneydude|704|Hamilton, Ontario|Canada
+privyguy|1349|Bottle Country - Southeast Pennsylvania|USA
+leonhare|866|Utica, N.Y.|USA
+christian*mom|259|God bless the USA!|USA
+j.cagney|81|St. Louis, MO|USA
+thebusybasket@hotmail.com|442|Basket Town|USA
+bkr180@hotmail.com|13|Oneonta, NY|USA
+lhoyt|1428|MAINE|USA
+shado6|52|NE Ohio|USA
+bobstoyz|685|Hurst, TX|USA
+pablo10|2429|Maine|USA

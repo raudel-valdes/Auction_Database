@@ -168,7 +168,8 @@ Creates the .dat file for the Bulk Loading of the Action Table
 """
 def gatherAuctionsTableData(auction):
     buyPrice = transformDollar(auction['Buy_Price'])
-    firstBid =            auction['First_Bid']
+    firstBid = transformDollar(auction['First_Bid'])
+
     #Table Schema -> itemID|name|started|ends|sellerID|buy_price|first_bid|number_of_bids
     auction = (
         auction['ItemID'] + columnSeparator + auction['Name'] + columnSeparator + 
@@ -201,6 +202,7 @@ def gatherBidsTableData(auction):
         time = transformDttm(bid['Time'])
         currently = transformDollar(auction['Currently'])
 
+        # Table Schema -> UserID|ItemID|amount|current_bid|time
         bids += (
             bidder['UserID'] + columnSeparator +  auction['ItemID'] + columnSeparator + 
             amount + columnSeparator + currently + columnSeparator + time + '\n'
@@ -236,7 +238,6 @@ def gatherItemsTableData(auction):
     )
     return items
 
-
 """
 1) Creating .dat files if they don't exist
 2) Writing new data to the files
@@ -268,28 +269,11 @@ def parseJson(json_file, writeOrAppend):
         jsonItems = loads(f.read())['Items'] # creates a Python dictionary of Items for the supplied json file
         
         #initializing variables
-        users = ''
-        sellers = ''
-        bidders = ''
-        auctions = ''
-        bids = ''
-        categories = ''
-        items = ''
+        users, sellers, bidders, auctions, bids, categories, items = '', '', '', '' , '', '', ''
 
         #an array that contains all of the attributes that the tables will have
-        attributesArray = [
-            'ItemID',
-            'Name',
-            'Started',
-            'Seller',
-            'First_Bid',
-            'Number_of_Bids', 
-            'Buy_Price', 
-            'Amount',
-            'Currently',
-            'Time',
-            'Role'
-        ]
+        attributesArray = ['ItemID','Name','Started','Seller','First_Bid','Number_of_Bids', 
+            'Buy_Price','Amount','Currently','Time','Role']
 
         for item in jsonItems:
             """
@@ -305,7 +289,6 @@ def parseJson(json_file, writeOrAppend):
                 except KeyError:
                     item[attribute]= 'NULL'
            
-
             #gathering the necessary data for populating the auction table
             users += gatherUsersTableData(item)
             sellers += gatherSellersTableData(item)

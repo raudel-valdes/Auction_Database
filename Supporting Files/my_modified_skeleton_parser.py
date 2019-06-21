@@ -67,12 +67,10 @@ def transformDttm(dttm):
 """
 Transform a dollar value amount from a string like $3,453.23 to XXXXX.xx
 """
-
 def transformDollar(money):
     if money == None or len(money) == 0:
         return money
     return sub(r'[^\d.]', '', money)
-
 
 """
 Creates the .dat file for the Bulk Loading of the Users Table
@@ -89,7 +87,6 @@ def gatherUsersTableData(auction):
 """
 Creates the .dat file for the Bulk Loading of the Sellers Table
 """
-
 def gatherSellersTableData(auction):
     #ISSUE: I am possibly adding bidders that are not sellers into the seller list
     #SOLUTION: Set this up to only add sellers from the auction. Right now I add from
@@ -131,7 +128,6 @@ def gatherSellersTableData(auction):
 
     return seller
 
-
 """
 Creates the .dat file for the Bulk Loading of the Bidders Table
 """
@@ -167,12 +163,10 @@ def gatherBiddersTableData(auction):
 
     return bidders
 
-
 """
 Creates the .dat file for the Bulk Loading of the Action Table
 """
 def gatherAuctionsTableData(auction):
-    
     buyPrice = transformDollar(auction['Buy_Price'])
     firstBid =            auction['First_Bid']
     #Table Schema -> itemID|name|started|ends|sellerID|buy_price|first_bid|number_of_bids
@@ -184,7 +178,6 @@ def gatherAuctionsTableData(auction):
     )
 
     return auction
-
 
 """
 Creates the .dat file for the Bulk Loading of the Bids Table
@@ -214,7 +207,6 @@ def gatherBidsTableData(auction):
         )
 
     return bids
-
 
 """
 Creates the .dat file for the Bulk Loading of the Categories Table
@@ -250,43 +242,21 @@ def gatherItemsTableData(auction):
 2) Writing new data to the files
 3) Closing the files
 """
+
+def deleteDuplicateValues(fileName):
+    uniquelines = set(open(fileName).readlines())
+    open(fileName, 'w').writelines(set(uniquelines))
+
 def createTableDATFiles(users, sellers, bidders, auctions, bids, categories, items, writeOrAppend):
-
-    #Users File
-    usersTable = open('usersTable.txt', writeOrAppend)
-    usersTable.write(users)
-    usersTable.close()
-
-    #Sellers File
-    sellersTable = open('sellersTable.txt', writeOrAppend)
-    sellersTable.write(sellers)
-    sellersTable.close()
-
-    #Bidders File
-    biddersTable = open('biddersTable.txt', writeOrAppend)
-    biddersTable.write(bidders)
-    biddersTable.close()
-
-    #Auction File
-    auctionTable = open('auctionTable.txt', writeOrAppend)
-    auctionTable.write(auctions)
-    auctionTable.close()
-
-    #Bids File
-    bidsTable = open('bidsTable.txt', writeOrAppend)
-    bidsTable.write(bids)        
-    bidsTable.close()
-
-    #Categories File
-    categoriesTable = open('categoriesTable.txt', writeOrAppend)
-    categoriesTable.write(categories)
-    categoriesTable.close()
-
-    #Items File        
-    itemsTable = open('itemsTable.txt', writeOrAppend)
-    itemsTable.write(items)
-    itemsTable.close()
-
+    fileNames = ['usersTable.txt','sellersTable.txt','biddersTable.txt','auctionTable.txt','bidsTable.txt','categoriesTable.txt', 'itemsTable.txt']
+    fileData = [users,sellers,bidders,auctions,bids,categories,items]
+    i = 0
+    for names in fileNames:        
+        table = open(names, writeOrAppend)
+        table.write(fileData[i])
+        table.close()
+        deleteDuplicateValues(names)
+        i += 1
 
 """
 Parses a single json file. Currently, there's a loop that iterates over each
@@ -349,7 +319,6 @@ def parseJson(json_file, writeOrAppend):
 
         createTableDATFiles(users, sellers, bidders, auctions, bids, categories, items, writeOrAppend)
 
-
 """
 Loops through each json files provided on the command line and passes each file
 to the parser
@@ -366,6 +335,6 @@ def main(argv):
             parseJson(f, writeOrAppend)
             print("Success parsing " + f)
             writeOrAppend = 'a'
-
+            
 if __name__ == '__main__':
     main(sys.argv)

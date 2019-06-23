@@ -1,0 +1,7 @@
+.separator |
+.import itemsTable.dat ITEMS
+.import auctionsTable.dat AUCTIONS
+.import sellersTable.dat SELLERS
+.import biddersTable.dat BIDDERS
+.import categoriesTable.dat CATEGORIES
+.import bidsTable.dat BIDS

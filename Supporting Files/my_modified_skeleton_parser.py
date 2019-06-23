@@ -8,7 +8,9 @@ Modified: 04/21/2014
 
 Modified: 06/17/2019
 Modified By: Raudel Valdes
-Modification Reason: adding compatibility with python 3
+Modification Reason: adding compatibility with python 3 and creating JSON
+Python parser that will create new documents to be structured in away that
+allows a SQLite data load.
 
 Skeleton parser for CS564 programming project 1. Has useful imports and
 functions for parsing, including:

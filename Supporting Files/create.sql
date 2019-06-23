@@ -61,6 +61,6 @@ CREATE TABLE BIDS (
   current_bid FLOAT,
   bid_time DATETIME,
   PRIMARY KEY (bidderID, itemID, amount),
-  FOREIGN KEY (bidderID) REFERENCES SEllERS (userID)
+  FOREIGN KEY (bidderID) REFERENCES SEllERS (userID),
   FOREIGN KEY (bidderID) REFERENCES BIDDERS (userID)
 );
